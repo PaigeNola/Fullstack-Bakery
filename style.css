@@ -1,0 +1,120 @@
+.brand {
+  font-size: 4rem;
+  color: #77044b;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-left: 1ch;
+  margin-bottom: 0;
+}
+
+nav {
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 3;
+  gap: 4rem;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #545454;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+  margin-right: 1ch;
+  gap: 1rem;
+}
+
+li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 0;
+  border-radius: 5px;
+  background-color: #77044b;
+  padding: 1ch 2.5ch 1ch 1ch;
+  color: #dac395;
+}
+
+article {
+  flex-direction: column;
+  padding: 1rem;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+  color: #545454;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  min-height: 100dvh;
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 1rem;
+}
+
+.testimonial {
+  background-color: #c1d4af;
+  padding: 1rem 1rem 1.5rem 1rem;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+}
+
+blockquote {
+  text-align: left;
+}
+
+figcaption {
+  text-align: center;
+}
+
+h1 {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 0 1ch 0;
+  font-style: italic;
+}
+
+footer {
+  background-color: #c1d4af;
+  text-align: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  padding: 0.5rem;
+  margin-top: auto;
+}
+
+.content {
+  display: flex;
+}
